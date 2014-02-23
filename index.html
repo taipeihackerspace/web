@@ -1,48 +1,109 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Taipei Hackerspace</title>
 
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <style>
-h1 {
+<!-- h1 { -->
+<!--   text-align: center; -->
+<!-- } -->
+.centered {
   text-align: center;
 }
-p {
-  text-align: center;
-}
-img.sponsorimg {
-  vertical-align: middle;
-}
+<!-- img.sponsorimg { -->
+<!--   vertical-align: middle; -->
+<!-- } -->
 .mono {
   font-family: monospace;
+}
+body {
+  padding-top: 50px;
+}
+<!-- #footer { -->
+<!--   width: 100%; -->
+<!--   height: 60px; -->
+<!--   background-color: #f5f5f5; -->
+<!-- } -->
+<!-- .container .text-muted { -->
+<!--     margin: 20px 0; -->
+<!-- } -->
+.page-header {
+   padding-top: 50px;
 }
 </style>
 </head>
 <body>
-<h1>Welcome to the Taipei Hackerspace</h1>
 
-<h3>Hackerspace links:</h3>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container-fluid" id="top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Taipei Hackerspace</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#links">Links</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#transport">Transport</a></li>
+        <li><a href="#open">Open</a></li>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#irc">IRC</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+<div class="jumbotron" id="jumbo">
+  <div class="container">
+    <h1>Welcome to the Taipei Hackerspace</h1>
+    <p>The Taipei Hackespace is an open and public workshop to do any kind of DIY projects, from electronics to 3D printing, from urban farming to clothes hacking.</p>
+  </div>
+</div>
+
+<div class="page-header" id="links">
+  <h1>Hackerspace Links</h1>
+</div>
 <p>
 <ul>
-<li><a href="https://groups.google.com/forum/?fromgroups#!forum/taipeihackerspace">Google Groups (Mailing list)</a> check here first for information</li>
-<li><a href="https://plus.google.com/100085911445404984901">Google+ page</a></li>
-<li><a href="https://www.facebook.com/TaipeiHackerspace">Facebook page</a></li>
+<li><a href="https://groups.google.com/forum/?fromgroups#!forum/taipeihackerspace">Google Groups (Mailing list)</a>: The core discussion usually happens on the mailing list. Open for everyone to read. Sign up to post. Feel free to ask questions and share your projects. This is also the preferred way to get in touch with the Hackerspace organizers.</li>
+<li>Social media presence: <a href="https://plus.google.com/100085911445404984901">Google+ page</a>, <a href="https://www.facebook.com/TaipeiHackerspace">Facebook page</a>, and <a href="https://www.facebook.com/groups/tpehack/">Facebook group</a></li>
 <li><a href="http://taipeihackerspace.github.io/" style="text-decoration:line-through">Blog</a> <a href="/blog">Blog</a></li>
 <li><a href="http://f.hackspace.tw/">Forum</a> developed by 'spacers</li>
-<li><a href="https://github.com/taipeihackerspace">Github Organization / Repository</a></li>
-<li><a href="https://docs.google.com/document/d/1lQ7WLpBOGAGNHOxzlj8kjVahJ7IkOTtySydTGWuXxmI/edit?usp=sharing">Sparkfile</a>- add your project ideas and see other people's crazy plans.</li>
-<li><a href="/wiki">Hackerspace Wiki</a> - add your knowledge here!</li>
-<li><a href="/wiki/doku.php?id=hackerspace_inventory">Inventory</a> - a rough list of what we have at the space</li>
+<li><a href="https://github.com/taipeihackerspace">Github Organization / Repository</a>. This is where the source code of community projects are hosted.</li>
+<li><a href="https://docs.google.com/document/d/1lQ7WLpBOGAGNHOxzlj8kjVahJ7IkOTtySydTGWuXxmI/edit?usp=sharing">Sparkfile</a>. Add your project ideas and see other people's crazy plans.</li>
+<li><a href="/wiki">Hackerspace Wiki</a>. Add your knowledge here! (notice: currently under maintenance)</li>
+<li><a href="/wiki/doku.php?id=hackerspace_inventory">Inventory</a>. A rough list of what we have at the space</li>
+<li><a href="http://hackerspaces.org/wiki/Taipei_Hackerspace">Taipei Hackerspace on Hackerspaces.org</a></li>
 </ul>
 
+<div class="page-header" id="media">
+  <h1>Taipei hackerspace in the media</h1>
+</div>
 <p>
-<h3>Taipei hackerspace in the media:</h3>
 <ul>
 <li><a href="http://yowureport.com/?p=6498">Yowureport - Hackerspaces & Makerspaces</a></li>
 </ul>
 
+
+<div class="page-header" id="sponsors">
+  <h1>Supporters of the Taipei Hackerspace</h1>
+</div>
+<p>These individuals and organizations contributed to the Hackerspace, in services, material, or tool. Thank you!</p>
 <p>
-<h3>Supporters of the Taipei Hackerspace:</h3>
 <a href="http://askmorris.com.tw" rel="contact"><img src="img/askmorris.png" alt="AskMorris" class="sponsorimg"></a>
 <a href="http://www.enspyre.com" rel="contact"><img src="img/enspyre.png" alt="Enspyre" class="sponsorimg"></a>
 <a href="http://www.osslab.com.tw" rel="contact"><img src="img/osslab.png" alt="OSSLab" class="sponsorimg"></a>
@@ -54,8 +115,13 @@ img.sponsorimg {
 <a href="http://eigerlaw.com" rel="contact"><img src="img/Eiger.png" alt="Eiger" class="sponsorimg"></a>
 </p>
 
+<div class="page-header" id="transport">
+  <h1>Transportation</h1>
+</div>
 <p>
-<h3>Transportation</h3>
+How to get to us? We are on <a href="https://maps.google.com.tw/maps?cid=14394366904066907349">Google Maps</a><br>
+The address is <strong>Taiyuan Rd., Lane 133, No 26, 4F. / 太原路133巷26號4樓</strong>.<br>
+Our phone number is <a href="tel:00886225507630">+886-2-2550-7630</a>.
 <ul>
 <li>Bus stations: 
 <a href="https://maps.google.com/maps/place?ftid=0x3442a96cd9247c0d:0x34a879dd43aa3ab9&amp;q=type:transit_station:%22%E5%BE%8C%E8%BB%8A%E7%AB%99%22&amp;t=m&amp;cad=src:ppiwlink&amp;ei=hiJlUeSoE7GWiQflpIHIAQ&amp;dtab=2">後車站</a>,
@@ -65,25 +131,43 @@ img.sponsorimg {
 <li>Buses nearby: <a href="http://pda.5284.com.tw/MQS/businfo2.jsp?routename=12">12</a> <a href="http://pda.5284.com.tw/MQS/businfo2.jsp?routename=306">306</a></li>
 </ul>
 
+<div class="page-header" id="open">
+  <h1>People in the Hackerspace now</h1>
+</div>
 <p>
-<h3>People in the Hackerspace now:</h3>
 <div>
 <span id="checkinlist">(Finding out whether anyone is checked in...)</span>
 </div>
 
-<p>
+<div class="page-header" id="calendar">
+  <h1>Calendar</h1>
+</div>
+<p class="centered">
 <iframe src="https://www.google.com/calendar/embed?src=96mpu88v2d3onqkp6ph9865p1c%40group.calendar.google.com&amp;ctz=Asia/Taipei" style="border: 0" width="800" height="600"></iframe>
 
-<p>
+<div class="page-header" id="irc">
+  <h1>Web IRC / #taipeihack</h1>
+</div>
+<p class="centered">
 <iframe src="http://webchat.freenode.net?randomnick=1&channels=%23taipeihack&prompt=1&uio=OT10cnVlde" width="800" height="600"></iframe>
 
-<div>
-<h3>Support</h3>
-You can also help us keep the Hackerspace running by donating <strong>Bitcoin</strong> to the
-<span class="mono"><a href="bitcoin:1386nJBU5xV5gdR9pMAea2wRSz6rz4apFu?amount=0.01&label=Thanks%20for%20supporting%20the%20Hackerspace%21">1386nJBU5xV5gdR9pMAea2wRSz6rz4apFu</a></span> address! Thank you! <img src="/img/HackerspaceSupport.png">
+<div class="page-header" id="support">
+  <h1>You can support us too</h1>
 </div>
+<p>
+<div>  
+You can also help us keep the Hackerspace running by donating <strong>Bitcoin</strong> to the
+<span class="mono"><a href="bitcoin:1386nJBU5xV5gdR9pMAea2wRSz6rz4apFu?amount=0.01&label=Thanks%20for%20supporting%20the%20Hackerspace%21">1386nJBU5xV5gdR9pMAea2wRSz6rz4apFu</a></span> address! Thank you!<br> <img src="/img/HackerspaceSupport.png">
+</div>
+</p>
 
-<div>Powered by: <a href="http://apc.io/" target="_blank">Via APC</a></div>
+</div>  <!-- container -->
+
+<div id="footer">
+  <div class="container">
+    <p class="text-muted">Powered by: <a href="http://apc.io/" target="_blank">Via APC</a></p>
+  </div>
+</div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -95,7 +179,9 @@ You can also help us keep the Hackerspace running by donating <strong>Bitcoin</s
   ga('send', 'pageview');
 </script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 <script src="http://tpehack.no-ip.biz/socket.io/socket.io.js"></script>
 <script src="http://tpehack.no-ip.biz/checkin/js/client.js"></script>
 
