@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/imrehg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://taipeihack.org
+  * I am imrehg (https://keybase.io/imrehg) on keybase.
+  * I have a public key with fingerprint B82F C4C2 213C 7CAC EB17  E59C 5CF8 E50C 793D 209B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.5.1"
+        },
+        "key": {
+            "fingerprint": "b82fc4c2213c7caceb17e59c5cf8e50c793d209b",
+            "host": "keybase.io",
+            "key_id": "5CF8E50C793D209B",
+            "uid": "0aa5eae8fed401430438fa883d789200",
+            "username": "imrehg"
+        },
+        "merkle_root": {
+            "ctime": 1411617141,
+            "hash": "8e6dc9b5a325f5617e65bdd7d5b57b4a1f137fa25ea6c92b2f01d5b1f549208fb2919afae95a032eb167234db80cffe1e56988b808faad61e19d01d7ed49d13e",
+            "seqno": 60950
+        },
+        "service": {
+            "hostname": "taipeihack.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411617347,
+    "expire_in": 157680000,
+    "prev": "e7ba73805b74702b27eef85d0b285d984db5672efcaeed86e5be85a53c74c330",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVU21sFEUYvlKUgq0B0xhASuEEgXIsO7s7t7uHBdq7ozX0tNoCgarH7O7s3dJ2
+d93dFrAcokJJC+kHGOQbDCFYoxRtQRKK4FfAQMQAGhokFCkIbYVCABVQnCU1yvzY
+2Zn3eZ/3ed6ZaUhL9qQkjZ57tTNDaOpOOnZV8hQ/uyZY5ZUMZbE3UOWVyzSsO+6f
+jsqxN+AtxYslZGNKM0bphoKpBfaoPozPW4ktWzN0gqIpSAFvwufC3WRV02PYMi3N
+5fJKAqPKnMwwgJV5GclYAjyGogxlVcCQlnmRVRhalAhl3LCdR6p6H3JGNYXswuAM
+IQzpIMGHCD6XxCoeBmiEIEZYULHC0YBjaY4VVCQIrMILIkPTLtDGVp8lrdzC8Zir
+thxbpWU4ahnGQ8uyo7kAwAHgBzyZiB5kx0mKgP2KLEoQsQxUIQliP5QUhVegBHmJ
+Q0AFLK8ihqjwyyIjMSoNSAyokCP1BVViRCAiFWERIpplSAP8PMNyiiTQsqpigKFf
+FASyIrKR4gcYiAph4IkfUQEsJgZs/IZueAN+WoR0wl1alZqMXdluz/qsOUgzsRZH
+cillWDGSZVqGY8hGGYnFHce0A65tZ7HpghdiKbq7jycqabpCDu3/pwoI9NGWsBzv
+8+JFpmbhqOYiIO8XaDLcQriScGJeQjwr0FDiOZ4mjeAxVgWo0BJDvqJALENiHasy
+wlgR/BhKWIAIkovBySxL/2cUsEQoihFOW4vpyKmwsDdR029Jf09Sikd9rJ97b6Pp
+yzxkUJ7xmm1XYGuSalrTdcNBDjFgU4aJdTNmUqqmOvG4Ydm4HOmUjh1ODLEsR4do
+dgbgguGgPxwMQYbzMwCKYTHMgRAr5IjhXM+ggYP/fSzfrBjsWfX0kQ/B1jl/iKjh
+K2rcl2svtu8qOPFZjwEOztsf6dgAK9NrP7+RVnL7zK9TM7kLRafm1+eaW0Ivt4zY
+0ksNG/l97B4b/SuxruG7E8HhLZfzfF+cGbLyvHOoacANs6RxemRN20KqJN7+dmn+
+7MP639H70zYO7D6aXT+z2teZ11KhtS0rqCty1md17Nt+t7WiveT5tAVdx19NqUmz
+Cy9EJ1e9N3bO1vtXCqdtz55ARTuWLys8ljjXk/Xb7TuHu/ftlcaqBTcmNudd+VY6
+Pnoc6G1Ljnxw/ZcpeQMPpR/Jn7f/VsvmVCBeudZYVnc51bdnaVL12gvvLNCW3ru9
+ufP8tsLs6tC5Wq0169Kqnt1dZ4btTL36VE1m3cmGZGZHNJE9wLPu1J9jqgbcmT/r
+ZEFecV2s6MeOyV/XZ1gK9VrGiMOvXLp19uaYtvpQuLZ1/OYsbnsp/eLdPY1vjWr5
+YX1SM6sO+rRLrq2due1AJKWACXzU705kRbTjZGTDkPmT8tXHk59sKT/7YEZaZf/u
+5k0lKGR+/P7pd1c/OD6rrHjixk05rwdSY0c/KdmVOu/gzaEvzM4cWZrZIzzT+9y2
+3w8kNYVal2bszO0PO4cvnHz5SPbQl1a+uS7fd62wPXGppoHOiHB7uZwldTuuMzdT
+m9MG5Zye0rnop8C9uSmNvtVZE2Z1PTFh6pDaST9n0IuW89m9VeMuDqf+AQ==
+=Oqu+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/imrehg
+
+==================================================================
