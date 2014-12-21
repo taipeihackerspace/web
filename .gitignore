@@ -1,2 +1,7 @@
-/blog/
+## What to ignore:
+#temporary files:
 *~
+
+# directories used for other stuff:
+wiki/
+blog/
